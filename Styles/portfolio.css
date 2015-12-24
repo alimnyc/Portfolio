@@ -1,12 +1,40 @@
 body {
-	background-image: url('../Images/A5.jpg');
 	color: #ffffff;
 	font-family: 'Playfair display', serif;
 	font-size: 50px;
 	text-align: center;
-	padding-top: 100px;
 
+}
+body.home {
+	background-image: url('../Images/A5.jpg');
+	padding-top: 100px;
+}
+body.about {
+	background-image: url('../Images/A11.jpg');
+	
+}
+body.adornments {
+	color: #000;
 }
 h1 {
 	text-shadow: 5px 5px 6px #000;
+}
+body.adornments h2 {
+	font-size: 20px;
+}
+nav ul {
+	list-style-type: none;
+
+}
+nav ul li {
+	display: inline-block;
+	padding: 0 10px;
+
+}
+nav ul li a {
+	color: #fff;
+
+}
+nav ul li a:hover {
+	color: #66f;
 }
